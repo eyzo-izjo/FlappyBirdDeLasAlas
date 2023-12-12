@@ -36,5 +36,6 @@ public class Goose : MonoBehaviour
     {
         isDead = true;
         anim.SetTrigger("Die");
+        GameControl.Instance.GooseDied();
     }
 }
